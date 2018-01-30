@@ -5,7 +5,106 @@ description:
 <head>
 
 <style>
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+body,
+html {
+  font-family: 'Fjalla One', sans-serif;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: rgb(169, 3, 41);
+  /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: radial-gradient(ellipse at center, rgba(169, 3, 41, 1) 0%, rgba(143, 2, 34, 1) 44%, rgba(109, 0, 25, 1) 100%);
+  /* W3C */
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019', GradientType=1);
+  /* IE6-8 fallback on horizontal gradient */
+}
 
+.rainbow-text {
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  display: block;
+  left: 50%;
+  margin-left: -99px;
+  margin-top: -50px;
+}
+
+.title-text {
+  text-align: center;
+}
+
+.title-text span.letters {
+  font-size: 6rem;
+}
+
+#a1 {
+  -webkit-animation-delay: .1s;
+  /* Chrome, Safari, Opera */
+  animation-delay: .1s;
+}
+
+#a2 {
+  -webkit-animation-delay: .2s;
+  /* Chrome, Safari, Opera */
+  animation-delay: .2s;
+}
+
+#a3 {
+  -webkit-animation-delay: .3s;
+  /* Chrome, Safari, Opera */
+  animation-delay: .3s;
+}
+
+#a4 {
+  -webkit-animation-delay: .4s;
+  /* Chrome, Safari, Opera */
+  animation-delay: .4s;
+}
+
+#a5 {
+  -webkit-animation-delay: .5s;
+  /* Chrome, Safari, Opera */
+  animation-delay: .5s;
+}
+
+.letters {
+  color: #FFF;
+  text-shadow: 2px 2px 6px #333;
+  animation: color-changer 6s infinite;
+  transition: color-changer ease-in-out;
+}
+
+@keyframes color-changer {
+  33% {
+    color: #EE0BF5;
+  }
+  /* #EE0BF5 cctv*/
+  66% {
+    color: #00CCFF;
+  }
+  /* #00CCFF marine */
+  100% {
+    color: #FFF;
+  }
+  /* #66F50B radio */
+}
+
+@-webkit-keyframes color-changer {
+  33% {
+    color: #EE0BF5;
+  }
+  /* #EE0BF5 cctv*/
+  66% {
+    color: #00CCFF;
+  }
+  /* #00CCFF marine */
+  100% {
+    color: #FFF;
+  }
+  /* #66F50B radio */
+}
 /* Style the Image Used to Trigger the Modal */
 #myImg {
     border-radius: 5px;
@@ -92,6 +191,23 @@ description:
 <body>
  
 <section class="hero">
+<div class="rainbow-text">
+  <div class="title-text">
+    <span class="letters" id="a1">P</span>
+    <span class="letters" id="a2">r</span>
+    <span class="letters" id="a3">o</span>
+    <span class="letters" id="a4">j</span>
+    <span class="letters" id="a5">e</span>
+    <span class="letters" id="a3">c</span>
+    <span class="letters" id="a4">t</span>
+    <span class="letters" id="a5">-</span>
+    <span class="letters" id="a5">S</span>
+    <span class="letters" id="a5">0</span> 
+    <span class="letters" id="a5">0</span>
+    <span class="letters" id="a5">0</span>
+  </div>
+</div>
+	
 	<div class="text-container">
   		<div>
 			<img alt="Overview of improvements made" id="myImg" src="webp-improvement-infographic2.png" />
