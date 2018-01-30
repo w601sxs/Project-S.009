@@ -1,4 +1,4 @@
-- name: Project-S
-  link: /
-  new_window: true
+- name:
+  link:
+  new_window: false
   highlight: false
