@@ -1,5 +1,10 @@
 - links:
+    - name: Github code
+      link: >-
+        https://github.com/w601sxs/Project-S.009/blob/master/Project-S.009/webpwatcherscript.ps1
+      social_icon: Google Plus
+      new_window: true
     - name:
       link:
       social_icon:
-      new_window: false
+      new_window: true
