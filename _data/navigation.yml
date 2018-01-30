@@ -1,4 +1,4 @@
-- name: Sign Up
+- name: Project-S
   link: /
-  new_window: false
+  new_window: true
   highlight: false
