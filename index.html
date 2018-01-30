@@ -45,7 +45,7 @@ body {
 
     blockquote {
         width: 565px;
-        font: 2.65em CallunaRegular;
+        font: 1.0em CallunaRegular;
         letter-spacing: .075em;
         float: left;
         padding: 45px 0 30px 25px;
@@ -58,7 +58,7 @@ body {
 
     .container:before {
         content: "“";
-        font-size: 13em;
+        font-size: 1.0em;
         position: absolute;
         left: -100px;
         color: #666;
@@ -66,7 +66,7 @@ body {
 
     .container:after {
         content: "”";
-        font-size: 13em;
+        font-size: 1.0em;
         position: absolute;
         right: -100px;
         top: 150px;
@@ -74,12 +74,12 @@ body {
     }
 
         blockquote:first-line {
-            font: 1.85em "Sketch Block";
+            font: 1.0em "Sketch Block";
             color: #fff79e;
         }
 
         blockquote:first-letter {
-            font-size: 2.9em;
+            font-size: 1.0em;
             text-transform: lowercase;
             float: left;
             line-height: .52em;
@@ -94,7 +94,7 @@ body {
         }
 
         blockquote strong:last-child {
-            font: 2em "Museo 700";
+            font: 1em "Museo 700";
             text-transform: uppercase;
             letter-spacing: 0;
         }
@@ -105,14 +105,14 @@ body {
 
         blockquote + b {
             float: right;
-            margin-top: 10px;
-            font: 1.6em CallunaRegular;
+            margin-top: 0px;
+            font: 1.0em CallunaRegular;
             letter-spacing: .15em;
         }
 
         blockquote + b:first-letter {
             color: #fff79e;
-            font-size: 1.3em;
+            font-size: 1.0em;
             font-style: italic;
             letter-spacing: .25em;
         }
@@ -210,18 +210,19 @@ body {
 <body>
  
 <section class="hero">
-	<article class="container">
+
+</section>
+<article class="container">
         <blockquote>
             <strong>Project-S.009</strong>
         </blockquote>
     </article> 
-</section>
-
 	<div class="text-container">
-  		<p>Automatic image compression on IIS Server for minimizing latency of transfer in bandwidth-constrained environments. This was also used in enhancing a company project EDCN - Electronic-Flight-Bag Data Communication Network. Click image to view full screen!</p>
-		<div>
+  		<div>
 			<img alt="Overview of improvements made" id="myImg" src="webp-improvement-infographic2.png" />
 		</div>
+		<p>Automatic image compression on IIS Server for minimizing latency of transfer in bandwidth-constrained environments. This was also used in enhancing a company project EDCN - Electronic-Flight-Bag Data Communication Network. Click image to view full screen!</p>
+
 		<div class="cta button alt"><a href="https://projectshreyas.org">Check out other Project S.*</a></div>
 	</div>
 <div id="myModal" class="modal">
